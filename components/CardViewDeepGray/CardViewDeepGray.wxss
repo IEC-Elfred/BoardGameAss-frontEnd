@@ -1,0 +1,10 @@
+/* components/CardView/CardView.wxss */
+.cardViewDeepGray {
+  border-radius: 24rpx;
+  background-color: #E8EAF2;
+  padding: 8rpx 24rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

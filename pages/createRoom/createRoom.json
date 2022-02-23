@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "CardViewGray":"/components/CardViewGray/CardViewGray",
+    "CardViewDeepGray":"/components/CardViewDeepGray/CardViewDeepGray"
+  }
+  
+}

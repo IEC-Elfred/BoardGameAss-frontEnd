@@ -1,0 +1,22 @@
+@import './radius.less';
+
+@font-size: 36px;
+
+.button-confirm {
+  .button-normal();
+  color: white;
+  background-color: black;
+}
+
+.button-normal {
+  font-size: @font-size;
+
+  .radius.normal();
+  color: black;
+  width: max-content;
+  background-color: whitesmoke;
+
+  &::after {
+    border: none;
+  }
+}

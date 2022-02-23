@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/gameRules/gameRules",
+    "pages/createRoom/createRoom",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "狼人杀",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

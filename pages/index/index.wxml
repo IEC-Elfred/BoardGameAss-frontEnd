@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="indexContainer">
+  <image class= "coverUrl" src="/static/werewolf/cover.png"></image>
+  <view class="buttonContainer">
+    <button class= "createRoom"  >
+      创建房间
+    </button>
+    <button class="joinRoom" >
+      加入房间
+    </button>
+    <button class="gameRule" >
+      游戏规则
+    </button>
+  </view>
+</view>

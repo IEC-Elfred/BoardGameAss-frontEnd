@@ -1,0 +1,2 @@
+<!--pages/gameRules/gameRules.wxml-->
+<CardViewGray class = "gameRuleText" text="狼人杀是一款多人参与的，以语言描述推动的、较量口才和分析判断能力的策略类桌游"></CardViewGray>

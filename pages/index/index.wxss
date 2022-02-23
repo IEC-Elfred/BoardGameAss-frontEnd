@@ -1,0 +1,45 @@
+/**index.wxss**/
+.indexContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coverUrl {
+  width: 444rpx;
+  height: 692rpx;
+}
+
+.indexContainer .buttonContainer {
+  padding: 36px;
+}
+ 
+.indexContainer .buttonContainer .createRoom {
+  width: 606rpx;
+  height: 108rpx;
+  margin-bottom: 30rpx;
+  text-align: center;
+  line-height: 78rpx;
+  border-radius: 24rpx;
+  background-color: #F5F6FB;
+}
+
+.indexContainer .buttonContainer .joinRoom {
+  width: 606rpx;
+  height: 108rpx;
+  margin-bottom: 30rpx;
+  text-align: center;
+  line-height: 78rpx;
+  border-radius: 24rpx;
+  background-color: #F5F6FB;
+}
+
+.indexContainer .buttonContainer .gameRule{
+  width: 606rpx;
+  height: 108rpx;
+  margin-bottom: 30rpx;
+  text-align: center;
+  line-height: 78rpx;
+  border-radius: 24rpx;
+  background-color: #F5F6FB;
+}

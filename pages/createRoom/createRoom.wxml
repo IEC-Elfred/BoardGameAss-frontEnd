@@ -1,0 +1,33 @@
+<!--pages/createRoom/createRoom.wxml-->
+<view class="roomContainer">
+  <!-- 我的身份区 -->
+  <view class="identityContainer">
+    <view class="myIdentityContainer">
+      <image class="myIdentityImg" src="/static/werewolf/god.png"></image>
+      <view class="textContainer">
+        <view class="myIdentityTextBox">
+          <text>我的身份</text>
+          <CardViewGray class="identityText" text="上帝"></CardViewGray>
+        </view>
+        <view class="numsTextBox">
+          <text>本局人数</text>
+          <CardViewGray class="numText" text="0"></CardViewGray>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="tipsContainer">
+    <CardViewDeepGray class="tips" text="创建房间的用户默认为上帝"></CardViewDeepGray>
+  </view>
+  
+  <!-- 身份卡区 -->
+  <scroll-view scroll-y="true" enable-flex class="identitySelectScroll">
+    <view class="identityBox"  wx:for="{{ImageURLArray}}" wx:key="id" >
+      <image class="identityImg" src="{{item.imageURL}}"></image>
+      <CardViewDeepGray class="identityNum" text="{{item.id}}"></CardViewDeepGray>
+    </view>
+  </scroll-view >
+</view>
+<view class="buttonContainer">
+  <button class="button" >确定</button>
+</view>
