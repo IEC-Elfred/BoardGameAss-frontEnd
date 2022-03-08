@@ -47,8 +47,8 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.19.4",
-  "appid": "wx54b6e8e581855b53",
-  "projectname": "BoardGameAss",
+  "appid": "wx1a8c6b5387caf12f",
+  "projectname": "BoardGameAss-frontEnd",
   "debugOptions": {
     "hidedInDevtools": []
   },

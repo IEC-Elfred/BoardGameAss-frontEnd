@@ -7,7 +7,8 @@
       <view class="textContainer">
         <view class="myIdentityTextBox">
           <text>我的身份</text>
-          <CardViewGray class="identityText" text="上帝"></CardViewGray>
+          <CardViewGray class="identityText" text="上帝">
+          </CardViewGray>
         </view>
         <view class="numsTextBox">
           <text>本局人数</text>
