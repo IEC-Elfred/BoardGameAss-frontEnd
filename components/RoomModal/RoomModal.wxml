@@ -1,0 +1,11 @@
+<view class='modal-mask' hidden="{{!show}}" bindtap='clickMask'>
+  <view class='modal-content'>
+    <view class="room">{{info}}</view>
+    <view class="roomNumber">{{room_number}}</view>
+    <view class='modal-footer'>
+      <button class="cancel-btn" bindtap="cancel">取消</button>
+      <button class="confirm-btn" bindtap="confirm">确定</button>
+    </view>
+  </view>
+</view>
+

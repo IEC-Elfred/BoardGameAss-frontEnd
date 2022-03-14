@@ -10,6 +10,67 @@
   height: 692rpx;
 }
 
+.hiddenPanel .buttonCombine{
+  display: flex;
+  flex-direction: row;
+  margin-top: 44rpx;
+}
+.hiddenPanel .room{
+  width: 588rpx;
+  height: 84rpx;
+  background-color: #fff;
+  text-align: center;
+  margin-left: 50rpx;
+  font-size: large;
+  font-weight: bold;
+  line-height: 84rpx;
+  margin-top: 30rpx;
+}
+.hiddenPanel .roomNumber{
+  width: 588rpx;
+  height: 84rpx;
+  background-color: #F5F6FB;
+  text-align: center;
+  margin-left: 50rpx;
+  margin-top: 44rpx;
+  font-size: medium;
+  font-weight: bold;
+  line-height: 84rpx;
+  border-radius: 16rpx;
+}
+.hiddenPanel .buttonCombine .first{
+  width: 276rpx;
+  height: 84rpx;
+  margin-left: 50rpx;
+  text-align: center;
+  line-height: 60rpx;
+  border-radius: 24rpx;
+  background-color: #F5F6FB;
+}
+.hiddenPanel .buttonCombine .second{
+  width: 276rpx;
+  height: 84rpx;
+  margin-right: 50rpx;
+  text-align: center;
+  line-height: 60rpx;
+  border-radius: 24rpx;
+  background-color: #27292f;
+  color: #ffffff;
+}
+.hiddenPanel{
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  top: 332rpx;
+  left: 30rpx;
+  right: 30rpx;
+  bottom: 728rpx;
+  width: 688rpx;
+  height: 400rpx;
+  background-color: #ffffff;
+  border-radius: 24rpx;
+}
+
 .indexContainer .buttonContainer {
   padding: 36px;
 }

@@ -4,6 +4,11 @@ const app = getApp()
 
 Page({
   data: {
+    info1:"请输入正确的房间号",
+    info2:"该房间已满",
+    is_show:true,
+    is_hidden:false,
+    room_number:'04100',
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,

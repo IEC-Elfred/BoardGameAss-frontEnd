@@ -1,8 +1,17 @@
 <!--index.wxml-->
 <view class="indexContainer">
   <image class= "coverUrl" src="/static/werewolf/cover.png"></image>
+  <RoomModal show="{{is_show}}" info="{{info1}}" room_number="{{room_number}}"></RoomModal>
+  <view class="hiddenPanel" hidden="{{is_hidden}}">
+  <view class="room">{{info2}}</view>
+  <view class="roomNumber">{{room_number}}</view>
+  <view class="buttonCombine">
+  <button class="first">取消</button>
+  <button class="second">确定</button>
+  </view>
+  </view>
   <view class="buttonContainer">
-    <button class= "createRoom"  >
+    <button class= "createRoom"   style="position: relative; left: 0rpx; top: 2rpx">
       创建房间
     </button>
     <button class="joinRoom" >

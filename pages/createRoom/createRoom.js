@@ -8,9 +8,21 @@ Page({
    */
 
   data: {
-    ImageURLArray : IdentityArray
+    ImageURLArray : IdentityArray,
+    showModal:true,
+    single:true,
+    hidden:true
   },
 
+  modalCancel(e) {
+    // 这里面处理点击取消按钮业务逻辑
+    console.log('点击了取消')
+  },
+  // 点击确定按钮的回调函数
+  modalConfirm(e) {
+   // 这里面处理点击确定按钮业务逻辑
+    console.log('点击了确定')
+  },
   /**
    * 生命周期函数--监听页面加载
    */

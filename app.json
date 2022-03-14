@@ -1,8 +1,8 @@
 {
   "pages": [
-    "pages/gameRules/gameRules",
+    "pages/index/index",
     "pages/createRoom/createRoom",
-    "pages/index/index"
+    "pages/gameRules/gameRules"
   ],
   "window": {
     "backgroundTextStyle": "light",
