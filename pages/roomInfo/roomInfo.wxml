@@ -1,7 +1,7 @@
 <!--pages/roomInfo/roomInfo.wxml-->
 <view class="roomInfoContainer">
-    <TopNavigation topText="{{123}}"></TopNavigation>
-    <view class="identityBox">
+    <TopNavigation topText="{{'房间号 '+123}}"></TopNavigation>
+    <view class="identityBox"> 
         <image class="identityImg" src="/static/werewolf/guard.png"></image>
         <view class="infoBox">
             <view class="identity">
