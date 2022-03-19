@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/roomInfo/roomInfo", 
+    "pages/gameOnGoing/gameOnGoing", 
     "pages/index/index",
     "pages/createRoom/createRoom",
     "pages/gameRules/gameRules"

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "InfoModal":"/components/InfoModal/InfoModal",
+    "TopNavigation":"/components/TopNavigation/TopNavigation",
+    "EndGameModal":"/components/EndGameModal/EndGameModal"
+  },
+  "navigationStyle": "custom"
+}

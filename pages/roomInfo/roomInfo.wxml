@@ -1,0 +1,102 @@
+<!--pages/roomInfo/roomInfo.wxml-->
+<view class="roomInfoContainer">
+    <TopNavigation topText="{{'房间号 '+123}}"></TopNavigation>
+    <view class="identityBox"> 
+        <image class="identityImg" src="/static/werewolf/guard.png"></image>
+        <view class="infoBox">
+            <view class="identity">
+                <text>我的身份</text>
+                <text class="label">守卫</text>
+            </view>
+            <view class="config">
+                <text>本局配置</text>
+                <text class="label">村民*2 狼人*2 白痴*1 </text>
+            </view>
+        </view>
+
+    </view>
+    <view class="tipsBox">
+        <text class="tips" hidden="{{!isGod}}">点击玩家头像标记出局</text>
+    </view>
+    <view class="playerBox">
+        <view class="player">
+            <view class="playerInfo" bindtap="onPlayerOut">
+                <image class="playerAvatar" src="/static/werewolf/back.png"></image>
+                <view class="playerName">李华</view>
+            </view>
+        </view>
+        <view class="player">
+            <view class="waiting">
+                <text>等待中</text>
+                <text decode="{{true}}">.&nbsp;.&nbsp;.</text>
+            </view>
+        </view>
+        <view class="player">
+            <image class="lock" src="/static/werewolf/lock.png"></image>
+        </view>
+        <view class="player">
+            <image class="lock" src="/static/werewolf/lock.png"></image>
+        </view>
+        <view class="player">
+            <image class="lock" src="/static/werewolf/lock.png"></image>
+        </view>
+        <view class="player">
+            <image class="lock" src="/static/werewolf/lock.png"></image>
+        </view>
+        <view class="player">
+            <image class="lock" src="/static/werewolf/lock.png"></image>
+        </view>
+        <view class="player">
+            <image class="lock" src="/static/werewolf/lock.png"></image>
+        </view>
+        <view class="player">
+            <image class="lock" src="/static/werewolf/lock.png"></image>
+        </view>
+        <view class="player">
+            <image class="lock" src="/static/werewolf/lock.png"></image>
+        </view>
+        <view class="player">
+            <image class="lock" src="/static/werewolf/lock.png"></image>
+        </view>
+        <view class="player">
+            <image class="lock" src="/static/werewolf/lock.png"></image>
+        </view>
+        <view class="player">
+            <image class="lock" src="/static/werewolf/lock.png"></image>
+        </view>
+        <view class="player">
+            <image class="lock" src="/static/werewolf/lock.png"></image>
+        </view>
+        <view class="player">
+            <image class="lock" src="/static/werewolf/lock.png"></image>
+        </view>
+        <view class="player">
+            <image class="lock" src="/static/werewolf/lock.png"></image>
+        </view>
+    </view>
+    <view class="operateBox">
+        <button class="gameRules operate" bindtap="onShowGameRules">游戏规则</button>
+        <button class="startDeal operate" disabled="{{hasEmptySeat?true:false}}">开始发牌</button>
+    </view>
+</view>
+<InfoModal show="{{showGameRules}}">
+   
+</InfoModal>
+
+<view class="mask" hidden="{{!playerOut}}" bindtap="onPlayerOut">
+    <view class="playerOutContainer"> 
+        <view class="playerTarget">
+            <view class="playerInfo"> 
+                <image class="playerAvatar" src="/static/werewolf/back.png"></image>
+                <view class="playerName">李华</view>
+            </view>
+        </view>
+        <text class="playerOutTxt">确定将标记该玩家出局吗？</text>
+        <text class="playerOutTxt">出局玩家可查看所有出局者身份</text>
+        <view class="modal-footer">
+            <button class="cancel-btn" bindtap="cancel">取消</button>
+            <button class="confirm-btn" bindtap="confirm">确定</button>
+        </view>
+    </view>
+</view>
+ 

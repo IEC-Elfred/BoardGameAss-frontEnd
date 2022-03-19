@@ -1,0 +1,31 @@
+<!--pages/gameOnGoing/gameOnGoing.wxml-->
+<view class="gameOnGoingContainer">
+    <TopNavigation topText="{{123}}"></TopNavigation>
+    <view class="configBox">
+        <view class="config">
+            <text>本局配置</text>
+            <text class="label">村民*2 狼人*2 白痴*1 </text>
+        </view>
+    </view>
+    <view class="playerBox">
+        <view class="player"></view>
+        <view class="player"></view>
+        <view class="player"></view>
+        <view class="player"></view>
+        <view class="player"></view>
+    </view>
+    <view class="operateBox">
+        <button class="operate myIdentityBtn" bindtap="onShowMyIdentity">我的身份</button>
+        <button class="operate">阵亡角色身份</button>
+        <button class="gameRules operate">游戏规则</button>
+        <button class="endDeal operate" bindtap="onShowEndGameModal">结束游戏</button>
+    </view> 
+</view>
+<InfoModal show="{{showMyIdentity}}">
+   <view class="ModalBox">
+        <text style="font-size: 40rpx;">我的身份</text>
+        <image class="myIdentityImg" src="/static/werewolf/guard.png"></image>
+        <text class="myIdentityLabel">守卫</text>
+   </view>
+</InfoModal>
+<EndGameModal show="{{showEndGameModal}}"></EndGameModal>
