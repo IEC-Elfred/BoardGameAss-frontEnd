@@ -1,0 +1,10 @@
+<!--components/endGameModal/EndGameModal.wxml-->
+<view class="mask" hidden="{{!show}}" bindtap="onEndGame">
+    <view class="endGameContainer">
+        <text class="endGameTxt">确定要结束游戏吗？</text>
+        <view class="modal-footer">
+            <button class="cancel-btn" bindtap="cancel">取消</button>
+            <button class="confirm-btn" bindtap="confirm">确定</button>
+        </view>
+    </view>
+</view>

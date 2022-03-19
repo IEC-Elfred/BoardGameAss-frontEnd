@@ -1,0 +1,44 @@
+/* components/TopNavigation/TopNavigation.wxss */
+.topBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 750rpx;
+    height: 88rpx;
+    background-color: #fff; 
+}
+.backBtn{
+    position: absolute;
+    left: 32rpx;
+    width: 94rpx;
+    height: 64rpx;
+    background-color: #fff;
+    border-radius: 32rpx;
+    box-sizing: border-box;
+    border: 1px solid #E9E9E9;
+}
+.backBtn::before{
+    display: block;
+    content: '';
+    position: absolute;
+    left: 42%;
+    top: 49%;
+    transform: translate(-50%,-50%) rotate(45deg);
+    width: 20rpx;
+    height: 20rpx;
+    box-sizing: border-box; 
+    border-left: 4rpx solid #000;
+    border-bottom: 4rpx solid #000;
+}
+.backBtn::after{
+    display: block;
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 2rpx solid #000;
+    width: 40rpx;
+    height: 0;
+}

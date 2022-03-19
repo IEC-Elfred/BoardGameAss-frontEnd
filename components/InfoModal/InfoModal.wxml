@@ -1,0 +1,7 @@
+<!--components/InfoModal/InfoModal.wxml-->
+<view class="mask" hidden="{{!show}}" catchtap="onCloseModal">
+    <view class="container">
+        <slot></slot>
+    </view>
+    <view class="hide" catchtap="onCloseModal"></view>
+</view>
