@@ -2,5 +2,5 @@
 
 <view class="topBar" style="padding-top:{{statusBarHeight}}px">
     <navigator open-type="navigateBack" class="backBtn"></navigator>
-    <text class="topBarText" decode="true">房间号 {{topText}}</text>
+    <text class="topBarText" decode="true">{{topText}}</text>
 </view>

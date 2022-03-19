@@ -5,8 +5,8 @@ Component({
      * 组件的属性列表
      */
     properties: {
-        topText:Number
-    },
+        topText:String
+    }, 
 
     /**
      * 组件的初始数据
